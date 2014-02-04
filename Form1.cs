@@ -224,5 +224,41 @@ namespace Sentence_Builder
             output += " ";
             sentenceOutput.Text = output;
         }
+
+        private void _theButton_Click(object sender, EventArgs e)
+        {
+            output += "the";
+            sentenceOutput.Text = output;
+        }
+
+        private void _allButton_Click(object sender, EventArgs e)
+        {
+            output += "all";
+            sentenceOutput.Text = output;
+        }
+
+        private void _myButton_Click(object sender, EventArgs e)
+        {
+            output += "my";
+            sentenceOutput.Text = output;
+        }
+
+        private void _yourButton_Click(object sender, EventArgs e)
+        {
+            output += "Your";
+            sentenceOutput.Text = output;
+        }
+
+        private void _weButton_Click(object sender, EventArgs e)
+        {
+            output += "we";
+            sentenceOutput.Text = output;
+        }
+
+        private void _thisButton_Click(object sender, EventArgs e)
+        {
+            output += "this";
+            sentenceOutput.Text = output;
+        }
     }
 }
