@@ -24,8 +24,55 @@ namespace Sentence_Builder
 
         private void sentenceOutput_Click(object sender, EventArgs e)
         {
-            
+            string eggTest = sentenceOutput.Text;
+            if (eggTest == "All your base are belong to us.")
+            {
+                theButton.Text = "All";
+                allButton.Text = "your";
+                myButton.Text = "base";
+                iButton.Text = "are";
+                weButton.Text = "belong";
+                thisButton.Text = "to";
+                _theButton.Text = "us";
+                _allButton.Text = ".";
+                _myButton.Text = "All";
+                _yourButton.Text = "your";
+                _weButton.Text = "base";
+                _thisButton.Text = "are";
+                yourButton.Text = "belong";
+                walkedButton.Text = "to";
+                ateButton.Text = "us";
+                rainButton.Text = ".";
+                inButton.Text = "All";
+                sidewalkButton.Text = "your";
+                ballButton.Text = "base";
+                isButton.Text = "are";
+                areButton.Text = "belong";
+                dogButton.Text = "to";
+                baseButton.Text = "us";
+                usButton.Text = ".";
+                downButton.Text = "All";
+                ranButton.Text = "your";
+                belongButton.Text = "base";
+                likeButton.Text = "are";
+                toButton.Text = "belong";
+                yardButton.Text = "to";
+                cheeseButton.Text = "us";
+                onButton.Text = ".";
+                aButton.Text = "ALL";
+                carButton.Text = "YOUR";
+                periodButton.Text = "BASE";
+                exclamationButton.Text = "ARE";
+                spaceButton.Text = "BELONG";
+                clearButton.Text = "TO";
+                exitButton.Text = "US!!!";
+
+                MessageBox.Show("You broke it!!! It was working perfectly fine before you went and did that! Now close it all!!");
+                /// see http://en.wikipedia.org/wiki/All_you_base_are_belong_to_us for an explanation.
+            }
         }
+          
+        
 
         private void theButton_Click(object sender, EventArgs e)
         {
